@@ -1,0 +1,5 @@
+baseURL = 'https://traveling.engineer/'
+languageCode = 'en-us'
+title = 'The Traveling Engineer'
+theme = 'nostyleplease'
+copyright = "Samuel Giddins"

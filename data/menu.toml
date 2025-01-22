@@ -1,0 +1,32 @@
+[[entries]]
+title = "Samuel Giddins"
+url = "https://segiddins.me"
+
+[[entries.entries]]
+title = "A blog about work-related things from an engineer who spends entirely too much time on airplanes."
+
+[[entries.entries]]
+title = "Security Engineer in Residence @ Ruby Central"
+url = "https://rubycentral.org/news/ruby-central-welcomes-new-software-engineer-in-residence-sponsored-by-aws/"
+
+[[entries]]
+title = "all posts"
+
+[entries.post_list]
+limit = 5
+show_more = true
+show_more_text = "See archive..."
+show_more_url = "posts"
+
+# [[entries]]
+# title = "posts by category"
+
+# [entries.post_list]
+# section = "posts"
+# show_more = true
+# show_more_text = "See more posts..."
+# show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
