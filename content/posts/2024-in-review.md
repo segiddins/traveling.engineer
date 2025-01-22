@@ -1,6 +1,6 @@
 +++
-date = '2025-01-03T13:17:12-08:00'
-draft = true
+date = '2025-01-24T13:17:12-08:00'
+draft = false
 title = '2024 in Review'
 toc = true
 tags = ["residency"]
@@ -16,11 +16,11 @@ In my first year working full-time on the Ruby packaging ecosystem...
 
 ## Thanks
 
-Of course, I need to start off by thanking the organizations that made this residency possible. First and foremost is 
+Of course, I need to start off by thanking the organizations that made this residency possible. First and foremost is AWS, who sponsored the residency for the first eleven months of the year. Second is Alpha-Omega, who has taken up the torch from AWS and will be covering the second year of the residency.
 
 ## Sigstore
 
-Adding support for [sigstore]() to the RubyGems ecosystem was my main project for 2024, and it was a big one.
+Adding support for [sigstore](https://sigstore.dev) to the RubyGems ecosystem was my main project for 2024, and it was a big one.
 
 ### sigstore-ruby
 
