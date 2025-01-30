@@ -8,7 +8,7 @@ tags = ["residency"]
 
 2024 was an eventful year, both personally & as the Ruby Central Security Engineer in Residence.
 
-In my first year working full-time on the Ruby packaging ecosystem I shipped some bugs, a few big projects, and 
+In my first year working full-time on the Ruby packaging ecosystem I shipped some bugs, a few big projects, and built relationships with some incredible folks working in the software supply chain space.
 
 Oh, I also got married. Can't forget that.
 
@@ -31,15 +31,15 @@ Adding support for [sigstore](https://sigstore.dev) to the RubyGems ecosystem wa
 
 ### sigstore-ruby
 
-Built and released a pure-Ruby implementation of the sigstore protocols, providing the foundation for RubyGems' signing capabilities. The library handles certificate management, transparency log operations, and supports both online and offline signing workflows.
+Built and released a [pure-Ruby implementation](https://github.com/sigstore/sigstore-ruby) of the sigstore client spec, providing the foundation for RubyGems' provenance capabilities. The library handles certificate management, transparency log operations, and supports both signing and verification workflows.
 
 ### RubyGems.org integration
 
-Implemented sigstore support in RubyGems.org's infrastructure, enabling developers to sign gem releases using their GitHub identities. Added new API endpoints, storage systems, and monitoring for the signing pipeline.
+Implemented sigstore support in RubyGems.org's infrastructure, enabling developers to sign gem releases using their GitHub identities. Added new API endpoints, storage systems, client support for pushing gems with provenance.
 
 ### `gem push` support
 
-Enhanced the `gem push` command with transparent sigstore signing support, making it seamless for developers to sign their releases, especially in GitHub Actions environments.
+Enhanced the `gem push` command with transparent sigstore signing support, making it seamless for developers to sign their releases in GitHub Actions environments.
 
 ### What's Next
 
