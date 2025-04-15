@@ -14,7 +14,7 @@ I wanted to outline a few findings around the reproducibility of the official Ru
 
 As a quick refresher, reproducible builds are defined by the ability to produce a _byte for byte_ identical artifact by following the same steps using the same inputs. This is important, because it makes it easy for independent parties to verify that the published artifact is "what is expected". Any differences in the bytes produced introduces doubt, and makes it much for difficult to automate verification of the artifact.
 
-The [https://reproducible-builds.org](reproducible builds) website is a good place to start if you're interested in learning more about the subject.
+The [reproducible builds](https://reproducible-builds.org) website is a good place to start if you're interested in learning more about the subject.
 
 ## Building Ruby's Release Artifacts
 
