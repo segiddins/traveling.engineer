@@ -1,12 +1,14 @@
 +++
 date = '2025-04-15T10:52:43+09:00'
-draft = true
+draft = false
 title = "Ruby Release Reproducibility"
 toc = true
 tags = ["sbom"]
 +++
 
 I wanted to outline a few findings around the reproducibility of the official Ruby releases.
+
+<!--more-->
 
 ## Why Reproducible Builds
 
